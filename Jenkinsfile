@@ -7,7 +7,5 @@ dockerBuildPipeline {
  repository = "cray"
  imagePrefix = "cray"
  product = "csm"
- githubPushRepo = "Cray-HPE/cray-spire-jwks"
- githubPushBranches = /(release\/.*|master)/
  useEntryPointForTest = "false"
 }
