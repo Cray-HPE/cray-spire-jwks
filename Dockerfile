@@ -1,7 +1,7 @@
 #
 # MIT License
 #
-# (C) Copyright 2022 Hewlett Packard Enterprise Development LP
+# (C) Copyright 2022-2023 Hewlett Packard Enterprise Development LP
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
@@ -21,7 +21,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 #
-FROM artifactory.algol60.net/csm-docker/stable/gcr.io/spiffe-io/oidc-discovery-provider:1.4.0
+FROM artifactory.algol60.net/csm-docker/stable/gcr.io/spiffe-io/oidc-discovery-provider:1.5.4
 
 COPY entry.sh /entry.sh
 ENTRYPOINT ["/entry.sh"]
