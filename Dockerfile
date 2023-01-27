@@ -21,7 +21,7 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 #
-FROM artifactory.algol60.net/csm-docker/stable/gcr.io/spiffe-io/oidc-discovery-provider:1.4.0
+FROM artifactory.algol60.net/csm-docker/stable/gcr.io/spiffe-io/oidc-discovery-provider:1.5.4
 
 COPY entry.sh /entry.sh
 ENTRYPOINT ["/entry.sh"]
